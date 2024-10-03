@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Heading
+        mainname = document.createElement('p');
+        mainname.innerHTML = "<b>" + "RESUME" + "</b>"
+        mainname.style.color = 'blue'
+        mainname.style.textAlign = 'center'
+        mainname.style.text = 'bold'
+        document.body.appendChild(mainname)
+        console.log("mainname");
+        // Name
+        text = document.createElement('p');
+        text.innerHTML = "<b>" + "IDINDLAPAVANKUMAR" + "</b>"
+        text.style.textAlign = 'center'
+        text.style.color = 'red'
+        document.body.appendChild(text);
+        // document.body.appendChild(document.createElement('hr'));
+        console.log(text);
+        // Email
+        email = document.createElement('p');
+        email.innerHTML = '<b>' + 'Email ID: idindlapavan@gmail.com' + "</b>"
+        email.style.color = 'black'
+        email.style.textAlign = 'center'
+        document.body.appendChild(email)
+        // github links
+        git = document.createElement('p');
+        git.innerHTML = "<b>" + "LinkedIn:" + "</b>" + ['https://www.linkedin.com/public-profile/']
+        git.style.color = 'black'
+        git.style.textAlign = 'center'
+        document.body.appendChild(git)
+        linkedin = document.createElement('p');
+        linkedin.style.textAlign = 'center'
+        linkedin.innerHTML = "<b>" + "GitHub:" + "</b>" + ["https://github.com/IdindlaPavankumar"]
+        document.body.appendChild(linkedin)
+        //   objective
+        obj = document.createElement('p');
+        obj.innerHTML = "<b>" + "OBJECTIVE" + "</b>"
+        obj.style.color = 'black'
+        document.body.appendChild(obj)
+        document.body.appendChild(document.createElement('hr'));
+        obj = document.createElement('p');
+        obj.innerText = 'As a motivated and detail-oriented computer science graduate, I possess a solid understanding of web development technologies, including HTML, CSS, JavaScript, and Bootstrap, along with programming experience in C. I am seeking an entry-level position that allows me to leverage my skills in creating responsive and user-friendly web applications. With a passion for problem-solving and a commitment to continuous learning, I aim to contribute effectively to a dynamic team while expanding my technical expertise in a professional setting.'
+        obj.style.margin = '20px'
+        document.body.appendChild(obj);
+        // Education
+        education = document.createElement('p')
+        education.innerHTML = "<b>" + 'EDUCATION' + '</b>'
+        document.body.appendChild(education)
+        document.body.appendChild(document.createElement('hr'));
+        // graducation Details
+        college = document.createElement('p')
+        college.innerHTML = '<b>' + "M. V. S. Arts and Science Govt Degree College, Mahabubnagar. 2020-23" + '</b>'
+        college.style.marginLeft = '60px'
+        document.body.appendChild(college)
+        degree = document.createElement('p');
+        degree.innerText = 'Bachelor of Computer Science'
+        degree.style.marginLeft = '60px'
+        document.body.appendChild(degree);
+        year = document.createElement('p');
+        year.innerHTML = '<b>' + '2020-2023' + '</b>'
+        year.style.float = 'right'
+        year.style.marginTop = '-70px'
+        year.style.marginRight = '100px'
+        document.body.appendChild(year)
+        cgpa = document.createElement('p');
+        cgpa.style.float = 'right'
+        cgpa.style.marginTop = '-30px'
+        cgpa.style.marginRight = '100px'
+        cgpa.innerText = 'CGPA-7.97'
+        document.body.appendChild(cgpa);
+        //   Intermediate Details
+        inter = document.createElement('p')
+        inter.innerHTML = "<b>" + 'Sri Venkateswara Govt Junior College, Palem.' + '</b>'
+        inter.style.marginLeft = '60px'
+        document.body.appendChild(inter)
+        adame = document.createElement('p');
+        adame.innerHTML = '<b>' + '2018-2020' + '</b>'
+        adame.style.float = 'right'
+        adame.style.marginTop = '-30px'
+        adame.style.marginRight = '100px'
+        document.body.appendChild(adame)
+        course = document.createElement('p')
+        course.innerText = 'Mathematics, Physics, Chemistry'
+        course.style.marginLeft = '60px'
+        document.body.appendChild(course)
+        grade = document.createElement('p')
+        grade.innerText = 'CGPA- 7.77'
+        grade.style.float = 'right'
+        grade.style.marginTop = "-30px"
+        grade.style.marginRight = '100px'
+        document.body.appendChild(grade)
+        // School Details
+        school = document.createElement('p')
+        school.innerHTML = '<b>' + 'Z. P. High School, Velgonda.' + '</b>'
+        school.style.marginLeft = '60px'
+        document.body.appendChild(school)
+        date = document.createElement('p')
+        date.innerHTML = '<b>' + '2017-2018' + '</b>'
+        date.style.float = 'right'
+        date.style.marginRight = '100px'
+        date.style.marginTop = '-30px'
+        document.body.appendChild(date)
+        marks = document.createElement('p')
+        marks.innerText = 'SSC'
+        marks.style.marginLeft = '60px'
+        document.body.appendChild(marks)
+        pass = document.createElement('p')
+        pass.innerText = 'CGPA- 7.35'
+        pass.style.float = 'right'
+        pass.style.marginTop = '-30px'
+        pass.style.marginRight = '100px'
+        document.body.appendChild(pass)
+        // Works Experience
+        work = document.createElement('p')
+        work.innerHTML = '<b>' + 'Skills' + '</b>'
+        document.body.appendChild(work)
+        document.body.appendChild(document.createElement('hr'));
+        para = document.createElement('p')
+        para.innerHTML = '<b>' + 'Technical Skills:' + '</b>'
+        document.body.appendChild(para)
+        skills = document.createElement('ul')
+        li1 = document.createElement('li')
+        li2 = document.createElement('li')
+        li3 = document.createElement('li')
+        li4 = document.createElement('li')
+        li5 = document.createElement('li')
+        li1.innerText = 'HTML'
+        li2.innerText = 'CSS'
+        li3.innerText = 'BOOTSTRAP'
+        li4.innerText = 'JavaScript'
+        li5.innerText = 'C'
+        skills.append(li1, li2, li3, li4, li5)
+        document.body.appendChild(skills)
+        soft = document.createElement('p')
+        soft.innerHTML = '<b>' + 'SoftSkills' + '</b>'
+        document.body.appendChild(soft)
+        a = document.createElement('ul')
+        li6 = document.createElement('li')
+        li7 = document.createElement('li')
+        li8 = document.createElement('li')
+        li6.innerText = 'Communication'
+        li7.innerText = 'Interpersonal communication'
+        li8.innerText = 'activelistening'
+        a.append(li6, li7, li8)
+        document.body.appendChild(a)
+        declare = document.createElement('p')
+        declare.innerHTML = '<b>' + 'Declaration' + '</b>'
+        document.body.appendChild(declare)
+        document.body.appendChild(document.createElement('hr'));
+        p = document.createElement('p')
+        p.innerText = "I hereby declare that the above mentioned the information is correct up to knowledge"
+        document.body.appendChild(p)
+
+
+
+    </script>
+</body>
+
+</html>
